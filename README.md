@@ -9,6 +9,17 @@ Explore US Bikeshare Data
 ### Description
 This Python script was created for Project 2  of Udacity's Programming for Data Science Nanodegree (PDSND) and is used to investigate details relating to bike share systems in Chicago, New York City, and Washington, D.C. It reads data from csv files and generates descriptive statistics from it. It also accepts raw user input to create an interactive experience in the terminal to present these statistics.
 
+### Statistics Explored
+What is the most popular month for start time?
+What is the most popular day of week (Monday, Tuesday, etc.) for start time?
+What is the most popular hour of day for start time?
+What is the total trip duration and average trip duration?
+What is the most popular start station and most popular end station?
+What is the most popular trip?
+What are the counts of each user type?
+What are the counts of gender?
+What are the earliest (i.e. oldest person), most recent (i.e. youngest person), and most popular birth years?
+
 ### Files used
 Bikeshare.py
 chicago.csv

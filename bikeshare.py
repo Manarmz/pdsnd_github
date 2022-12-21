@@ -186,7 +186,9 @@ def show_row_data(df):
             print( df.iloc[ row : row + 6] )
             row += 6
         elif raw_data == "no":
-            break
+            confirms = input('\nAre you sure you? Enter yes or no.\n')
+            if confirms.lower() == 'yes':
+                break
         else:
             print("Invalid input. Please enter yes or no.")
    
@@ -203,7 +205,10 @@ def main():
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            break
+            confirm = input('\nAre you sure you want to exit the program? Enter yes or no.\n')
+            if confirm.lower() == 'yes':
+                print('Thank you for using US Bikeshare Data Exploration Program.. See you later!')
+                break
 
 
 if __name__ == "__main__":

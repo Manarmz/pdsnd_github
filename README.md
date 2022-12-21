@@ -9,6 +9,21 @@ Explore US Bikeshare Data
 ### Description
 This Python script was created for Project 2  of Udacity's Programming for Data Science Nanodegree (PDSND) and is used to investigate details relating to bike share systems in Chicago, New York City, and Washington, D.C. It reads data from csv files and generates descriptive statistics from it. It also accepts raw user input to create an interactive experience in the terminal to present these statistics.
 
+### Dataset
+The data is provided by Motivate, which is a bike share system provider for many cities in the United States. 
+
+The data files for all three cities contain the same six columns:
+*Start Time
+*End Time
+*Trip Duration (in seconds)
+*Start Station
+*End Station
+*User Type (Subscriber or Customer)
+
+The Chicago and New York City files also contain the following two columns:
+*Gender
+*Birth Year
+
 ### Statistics Explored
 *What is the most popular month for start time?
 *What is the most popular day of week (Monday, Tuesday, etc.) for start time?
